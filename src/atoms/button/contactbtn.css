@@ -1,17 +1,17 @@
 .contact__btn {
-    padding: 0.99rem 2rem ;
-    background-color:#D6E5EB;
-    text-align: center;
-    cursor: pointer;
-    transition: 0.5s;
+  padding: 0.99rem 2rem;
+  background-color: #d6e5eb;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
-.contact__btn:hover{
- background-color: yellow;
+.contact__btn:hover {
+  background-color: yellow;
 }
 
 @media only screen and (max-width: 768px) {
-    .contact__btn {
-        display: none;
-    }
+  .contact__btn {
+    display: none;
+  }
 }
