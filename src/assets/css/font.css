@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "ColasBlack";
+    font-weight: normal;
+    src: url("../fonts/ColasBlack.woff2") format("woff2"),
+      url("../fonts/ColasBlack.woff") format("woff");
+  }
+   @font-face {
+    font-family: "ColasBold";
+    font-weight: normal;
+    src: url("../fonts/ColasBold.woff2") format("woff2"),
+      url("../fonts/ColasBold.woff2") format("woff");
+  }
+  
+  @font-face {
+    font-family: "GothamBlack";
+    font-weight: normal;
+    src: url("../fonts/GothamBlack.woff") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "GothamBold";
+    font-weight: normal;
+    src: url("../fonts/GothamBold.woff2") format("woff2"),
+      url("../fonts/GothamBold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "GothamBook";
+    font-weight: normal;
+    src: url("../fonts/GothamBook.woff2") format("woff2"),
+    url("../fonts/GothamBook.woff") format("woff");
+  }
+   
+  @font-face {
+    font-family: "GothamLight";
+    font-weight: normal;
+    src: url("../fonts/GothamLight.woff") format("woff2"),
+    url("../fonts/GothamLight.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "GothamMedium";
+    font-weight: normal;
+    src: url("../fonts/GothamMedium.woff2") format("woff2"),
+    url("../fonts/GothamMedium.woff") format("woff");
+  }
+   
+   
+   
+   

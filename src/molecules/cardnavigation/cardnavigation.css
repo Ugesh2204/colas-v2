@@ -1,0 +1,60 @@
+.swiper-wrapper {
+    padding-bottom: 2rem;
+    cursor: pointer;
+}
+
+.swiper-slide:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    background-image: url(../../assets/images/cardnavigation/underline_icon.svg);
+    background-repeat: no-repeat;
+    z-index: 99;
+    bottom: -2rem;
+    left: 16px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.swiper-slide:hover:after {
+    opacity: 1;
+}
+
+.swiper-slide.active:after {
+    opacity: 1;
+}
+
+.navicons__wrapper {
+    text-align: center;
+    font-family: "GothamMedium";
+    font-size: 13px;
+    width: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 75px;
+
+}
+
+.navicons__wrapper .nav__icon {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navicons__wrapper .nav__icon img {
+}
+
+.navicons__wrapper .nav__icon_text {
+    padding: 0rem 0.5rem;
+}
+
+.navicons__wrapper .underline {
+    margin-top:1rem;
+}
+
+
+

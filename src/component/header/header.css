@@ -1,0 +1,18 @@
+.header {
+    width: 100%;
+    position: relative;
+}
+
+.nav__wrapper {
+    background-color: #2C4965;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0%  0% 0% 4.3% ;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav__wrapper {
+        padding: 0%  4.3% 0% 4.3% ;
+    }
+} 

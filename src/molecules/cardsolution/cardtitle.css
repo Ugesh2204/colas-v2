@@ -1,0 +1,35 @@
+.block__titlewrapper {
+    width: 100%;
+    display: flex;
+    align-items: start;
+}
+
+.block__titlewrapper img {
+    margin-top: 0rem;
+}
+.block__titlewrapper .block__title {
+    margin-left:2rem;
+    line-height: 2.8rem;
+}
+
+.block__title .sub__title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.block__titlewrapper h2 {
+    font-size: 48px;
+    color:#2C4965;
+    font-family: "GothamBold";
+}
+
+.block__title .sub__title span {
+    font-size: 20px;
+}
+
+.block__titlewrapper p {
+    font-size: 20px;
+}

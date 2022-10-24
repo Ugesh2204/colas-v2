@@ -1,0 +1,30 @@
+.logonav__container {
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+
+
+.contactrecherche__container {
+    display: flex;
+    width:20% ;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .logonav__container {
+        width: 100%;
+    }
+    .colaslogo {
+        text-align: center;
+        width: 90%;
+    }
+    .contactrecherche__container {
+        width: 10%;
+    }
+}

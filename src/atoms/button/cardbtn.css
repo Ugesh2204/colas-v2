@@ -1,0 +1,13 @@
+
+.btn {
+    padding: 0.7rem 3rem;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+}
+
+.btn-yellow {
+    background-color: #FFED00;
+}

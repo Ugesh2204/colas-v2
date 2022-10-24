@@ -1,0 +1,158 @@
+.card__wrapper {
+  width:100%;
+  border-radius:20px;
+  overflow: hidden;
+  height:550px;
+  
+}
+
+.card__contenttop{
+  position:relative;
+  transition: 0.25s;
+  transform: translateY(0);
+  opacity: 1;
+  z-index: 99;
+}
+
+.card__contenttop img {
+  width:100%;
+  height:550px;
+  border-radius: 20px ;
+ 
+}
+
+.card__vshape {
+  width:100%;
+  height: 267px;
+  position: absolute;
+  bottom: 227px;
+  z-index: 1;
+}
+
+.card__info {
+  position: absolute;
+  width: 100%;
+  height: 177px;
+  background-color: #2C4965;
+  bottom: 0px;
+  z-index: 2;
+}
+
+.card__info .content_title {
+  padding:0 35px;
+  margin-bottom: 36px;
+}
+
+.card__info .content_title  h2 {
+  color:#ffffff;
+  font-size: 1.8rem;
+  font-family: "ColasBold";
+}
+.card__info .content_title span.small_txt {
+  font-size: 17px;
+}
+
+.card__info .content_title .title__underline img{
+  width:65px;
+  height: 4px;
+
+}
+
+.card__info .content__subtitle {
+  height: 44px;
+  margin-bottom: 45px;
+}
+
+.card__info .content__subtitle p {
+  padding:0 35px;
+  color:#ffffff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: "GothamBold";
+}
+
+
+.card__contentbottom {
+  width:100%;
+  height: 215px;
+  background-color: #2C4965;
+  text-align: left;
+  padding: 0 35px;
+  color:#ffffff;
+  transition: 0.2s;
+  transform: translateY(0);
+  /* margin-top: -43px; */
+  margin-top: -211px;
+}
+
+
+.card__contentbottom .card__description {
+   min-height: 130px;
+}
+
+.card__contentbottom .card__description p {
+  margin-bottom: 1rem;
+  font-family: "GothamLight";
+  font-size: 0.9rem;
+  transition:1s;
+  opacity: 0;
+ 
+}
+
+.card__contentbottom button {
+  font-family: "GothamBold";
+  font-size: 1rem;
+  opacity: 0;
+  transition:1s;
+  transform: translateY(0.4rem);
+}
+
+.card__wrapper:hover button {
+  opacity: 1;
+  transform: translateY(0rem);
+} 
+
+.card__wrapper:hover .card__contentbottom p {
+  opacity: 1;
+}
+
+.card__wrapper:hover .card__contenttop {
+  transform: translateY(-200px);
+}
+
+.card__wrapper:hover .card__contentbottom {
+  transform: translateY(10px);
+ }
+
+ @media only screen and (min-width: 360px) and (max-width: 414px)  {
+
+  .heading__card .block__titlewrapper h2 {
+    font-size: 24px;
+  }
+
+  .heading__card .block__titlewrapper img {
+    margin-top: 0.4rem;
+  }
+
+  .heading__card .block__titlewrapper .block__title {
+    margin-left: 2rem;
+    line-height: 2rem;
+  }
+} 
+
+/* @media only screen and (min-width: 768px) {
+  .card__wrapper {
+    width:33.3%;
+    max-height:550px;
+  }
+} */
+
+
+/* @media only screen  and (max-width:1380px ) and (min-width: 1024px) {
+  .card__wrapper {
+    width:32.3%;
+    max-height:550px;
+  }
+}  */
+
+
